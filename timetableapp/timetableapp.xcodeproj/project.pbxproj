@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3E1F58155408AE009EE492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E1F57155408AE009EE492 /* Foundation.framework */; };
+		CE3E1F5B155408AE009EE492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E1F5A155408AE009EE492 /* main.m */; };
+		CE3E1F5F155408AE009EE492 /* timetableapp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE3E1F5E155408AE009EE492 /* timetableapp.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE3E1F51155408AE009EE492 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CE3E1F5F155408AE009EE492 /* timetableapp.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE3E1F53155408AE009EE492 /* timetableapp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = timetableapp; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3E1F57155408AE009EE492 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3E1F5A155408AE009EE492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3E1F5D155408AE009EE492 /* timetableapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timetableapp-Prefix.pch"; sourceTree = "<group>"; };
+		CE3E1F5E155408AE009EE492 /* timetableapp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = timetableapp.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3E1F50155408AE009EE492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3E1F58155408AE009EE492 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3E1F48155408AE009EE492 = {
+			isa = PBXGroup;
+			children = (
+				CE3E1F59155408AE009EE492 /* timetableapp */,
+				CE3E1F56155408AE009EE492 /* Frameworks */,
+				CE3E1F54155408AE009EE492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3E1F54155408AE009EE492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E1F53155408AE009EE492 /* timetableapp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3E1F56155408AE009EE492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E1F57155408AE009EE492 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3E1F59155408AE009EE492 /* timetableapp */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E1F5A155408AE009EE492 /* main.m */,
+				CE3E1F5E155408AE009EE492 /* timetableapp.1 */,
+				CE3E1F5C155408AE009EE492 /* Supporting Files */,
+			);
+			path = timetableapp;
+			sourceTree = "<group>";
+		};
+		CE3E1F5C155408AE009EE492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E1F5D155408AE009EE492 /* timetableapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3E1F52155408AE009EE492 /* timetableapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3E1F62155408AE009EE492 /* Build configuration list for PBXNativeTarget "timetableapp" */;
+			buildPhases = (
+				CE3E1F4F155408AE009EE492 /* Sources */,
+				CE3E1F50155408AE009EE492 /* Frameworks */,
+				CE3E1F51155408AE009EE492 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timetableapp;
+			productName = timetableapp;
+			productReference = CE3E1F53155408AE009EE492 /* timetableapp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3E1F4A155408AE009EE492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE3E1F4D155408AE009EE492 /* Build configuration list for PBXProject "timetableapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3E1F48155408AE009EE492;
+			productRefGroup = CE3E1F54155408AE009EE492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3E1F52155408AE009EE492 /* timetableapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3E1F4F155408AE009EE492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3E1F5B155408AE009EE492 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE3E1F60155408AE009EE492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE3E1F61155408AE009EE492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE3E1F63155408AE009EE492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timetableapp/timetableapp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE3E1F64155408AE009EE492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timetableapp/timetableapp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3E1F4D155408AE009EE492 /* Build configuration list for PBXProject "timetableapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3E1F60155408AE009EE492 /* Debug */,
+				CE3E1F61155408AE009EE492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3E1F62155408AE009EE492 /* Build configuration list for PBXNativeTarget "timetableapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3E1F63155408AE009EE492 /* Debug */,
+				CE3E1F64155408AE009EE492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3E1F4A155408AE009EE492 /* Project object */;
+}
