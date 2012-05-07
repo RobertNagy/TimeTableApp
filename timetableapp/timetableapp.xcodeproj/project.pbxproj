@@ -193,6 +193,11 @@
 		CE3E1F63155408AE009EE492 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "timetableapp/timetableapp-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -202,6 +207,11 @@
 		CE3E1F64155408AE009EE492 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "timetableapp/timetableapp-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -227,6 +237,7 @@
 				CE3E1F64155408AE009EE492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
